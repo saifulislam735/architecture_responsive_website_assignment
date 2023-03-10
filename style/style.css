@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 body{
+    color: #131313;
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
@@ -224,3 +225,25 @@ body{
     font-weight: 400;
 }
 
+        /*---------------
+            fact-style 
+         -------------*/
+.fact{
+    margin: 0px 190px 150px;
+}
+.fact-upper{
+    width: 540px;
+    height: 120px;
+}
+.fact-title{
+    font-size: 45px;
+    margin: 0px;
+}
+.fact-para{
+    font-size: 16px;
+    color: #727272;
+}
+.fact-statements{
+    width: 220px;
+    height: 220px;
+}
