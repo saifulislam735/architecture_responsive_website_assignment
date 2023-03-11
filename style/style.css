@@ -383,17 +383,21 @@ body {
     align-items: center;
 }
 
-/*------------- Responsive part 
+/*------------- 
+        Responsive part 
         ---------------*/
-@media only screen and (max-width: 588px) {
-    .header{
 
-    }
+
+
+
+@media only screen and (max-width: 588px) {
+    /*---------------
+     header responsive
+     ---------------- */
   .nav{
     text-align: start;
     width: 100%;
     flex-direction: column;
-    /* justify-content: start; */
     margin: 0px;
   }
   .nav-title{
@@ -418,19 +422,25 @@ body {
     font-size: 12px;
     padding: 20px;
   }
+    /*--------------------
+     ui-feature responsive 
+     --------------------*/
   .feature{
-    display: block;
     width: 100%;
     flex-direction: column;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .feature-images{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     gap: 5px;
-    padding: 40px;
     margin: 0px;
+
   }
   .feature-images img{
     height: 150px;
@@ -454,6 +464,64 @@ body {
     height: 55px;
     font-size: 16px;
     margin-left: 130px;
+  }
+    /*-------------------- ux-feature responsive 
+    ----------------------*/
+  .ux-feature{
+    margin: 0px;
+    width: 100%;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .ux-feature-details{
+    width: 100%;
+  }
+  .ux-feature-title{
+    font-size: 35px;
+  }
+  .ux-feature-para{
+    font-size: 12px;
+    padding: 20px;
+  }
+  .ux-feature-grids{
+    width: 100%;
+  }
+  .ux-feature-grid{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    padding: 10px;
+  }
+  .feature-grid-para{
+    font-size: 12px;
+  }
+  .ux-feature-right{
+    padding-top: 50px;
+    width: 100%;
+    margin: 0px;
+  }
+  .ux-feature-image{
+   
+    padding-left: 0px;
+    margin-left: 40px;
+  }
+  .ux-feature-image img{
+    width: 75%;
+   
+  }
+  .ux-sp-btn{
+    left: 10px;
+    top: 200px;
+  }
+  .ux-feature-exp-btn{
+    width: 200px;
+    height: 150px;
+  }
+  .ux-feature-exp-btn-title{
+    font-size: 40px;
+  }
+  .ux-feature-exp-btn-para{
+    font-size: 16px;
   }
 }
 .hide{
