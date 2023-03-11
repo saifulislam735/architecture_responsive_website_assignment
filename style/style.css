@@ -394,6 +394,9 @@ body {
     /*---------------
      header responsive
      ---------------- */
+    .main{
+        padding-bottom: 100px;
+    }
   .nav{
     text-align: start;
     width: 100%;
@@ -554,12 +557,41 @@ body {
   }
   .fact-quater{
     margin-left: 50px;
-    padding: ;
     height: 200px;
     width: 200px;
 
   }
+  .sponsor{
+    width: 100%;
+    margin: 0px;
+  }
+  .sponsor-info{
+    width: 100%;
+    margin: 20px;
+  }
+  .sponsor-title{
+    font-size: 35px;
+  }
+  .sponsor-para{
+    font-size: 12px;
+    padding: 20px;
+  }
+  .sponsor-logos{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .footer{
+    margin: 15px;
+    padding: 5px;
+    height: 50px;
+
+  }
+  .footer-content{
+    font-size: 10px;
+  }
 }
-.hide{
-    display: none;
-}
+    /* ------------
+    End of CSS style */
