@@ -418,6 +418,43 @@ body {
     font-size: 12px;
     padding: 20px;
   }
+  .feature{
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .feature-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+    padding: 40px;
+    margin: 0px;
+  }
+  .feature-images img{
+    height: 150px;
+    width: 150px;
+    
+  }
+  .feature-info{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+  .feature-title{
+    font-size: 35px;
+  }
+  .feature-para{
+    font-size: 12px;
+    padding: 20px;
+  }
+  .feature-btn{
+    width: 130px;
+    height: 55px;
+    font-size: 16px;
+    margin-left: 130px;
+  }
 }
 .hide{
     display: none;
