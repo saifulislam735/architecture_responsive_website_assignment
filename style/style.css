@@ -286,7 +286,7 @@ body {
 
 .fact-statements {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .fact-quater {
@@ -429,10 +429,8 @@ body {
     width: 100%;
     flex-direction: column;
     margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 20px;
+    
   }
   .feature-images{
     display: grid;
@@ -448,6 +446,7 @@ body {
     
   }
   .feature-info{
+    padding-top: 40px;
     width: 100%;
     margin: 0px;
     text-align: center;
@@ -506,12 +505,13 @@ body {
     margin-left: 40px;
   }
   .ux-feature-image img{
+    position: relative;
     width: 75%;
    
   }
   .ux-sp-btn{
-    left: 10px;
-    top: 200px;
+    left: 5px;
+    top: -200px;
   }
   .ux-feature-exp-btn{
     width: 200px;
@@ -522,6 +522,42 @@ body {
   }
   .ux-feature-exp-btn-para{
     font-size: 16px;
+  }
+    /* ---------------
+    fact responsive 
+    -------------------*/
+  .fact{
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    top: -130px;
+    /* padding-top: 300px; */
+    margin-left: 20px;
+  }
+  .fact-upper
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .fact-title{
+    font-size: 35px;
+  }
+  .fact-para{
+    font-size: 12px;
+  }
+  .fact-statements{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+  }
+  .fact-quater{
+    margin-left: 50px;
+    padding: ;
+    height: 200px;
+    width: 200px;
+
   }
 }
 .hide{
